@@ -9,11 +9,11 @@ image: "https://raw.githubusercontent.com/Lukols-Dev/lukols-blog-posts/main/imag
 
 W pewnej wiosce, gdzie technologia i tradycja przenikają się wzajemnie, młody ninja podszedł do swojego senseia z pytaniem: "Mistrzu, jak mogę uczynić naszą stronę niewidzialną dla wrogów, ale widoczną dla tych, którzy szukają naszej mądrości?". Uśmiechając się, sensei odpowiedział: "Młody wojowniku, odpowiedź tkwi w Server-Side Rendering (SSR) w Next.js". Zaintrygowany, uczeń postanowił zgłębić tajniki tej technologii.
 
-## **Czym jest Server-Side Rendering (SSR)?**
+## Czym jest Server-Side Rendering (SSR)?
 
 **SSR** to technika, która pozwala aplikacjom internetowym renderować strony na serwerze i wysyłać w pełni wyrenderowany HTML do klienta. W przeciwieństwie do **Client-Side Rendering (CSR)**, gdzie renderowanie odbywa się w przeglądarce klienta, **SSR** zapewnia szybsze początkowe ładowanie strony, poprawia SEO i zapewnia lepsze doświadczenie użytkownika, gwarantując, że treść jest łatwo dostępna dla wyszukiwarek i użytkowników.
 
-## **Dlaczego wybrać SSR w Next.js?**
+## Dlaczego wybrać SSR w Next.js?
 
 - **Poprawiona wydajność:** 
   SSR w Next.js skraca czas do pierwszego wyświetlenia i umożliwia szybszą dostawę treści, co przekłada się na płynniejsze doświadczenie użytkownika.
@@ -26,12 +26,12 @@ W pewnej wiosce, gdzie technologia i tradycja przenikają się wzajemnie, młody
 - **Spójność:** 
   SSR zapewnia, że zarówno serwer, jak i klient widzą tę samą treść, co redukuje potencjalne problemy z różnicami w renderowaniu.
 
-## **Wdrażanie SSR w Next.js:**
+## Wdrażanie SSR w Next.js:
 
 Aby włączyć SSR w Next.js, wystarczy utworzyć nowy projekt Next.js lub zaktualizować istniejący. 
 Next.js umożliwia pobieranie dynamicznej zawartości, a następnie odpowiednie generowanie znaczników przy każdym żądaniu. Next.js robi to poprzez zapewnienie opcji deklarowania jednej z dwóch funkcji asynchronicznych w komponentach typu strony o nazwie **getServerSideProps()** lub **getStaticProps()**.
 
-## **SSR a Client-Side Rendering (CSR):**
+## SSR a Client-Side Rendering (CSR):
 
 Chociaż SSR oferuje wiele korzyści, ważne jest, aby rozważyć kompromisy w porównaniu z CSR. SSR ma większe początkowe obciążenie serwera, ponieważ serwer musi renderować stronę dla każdego żądania. Dlatego kluczowe jest analizowanie konkretnych potrzeb Twojej aplikacji i wybranie odpowiedniej strategii renderowania.
 
